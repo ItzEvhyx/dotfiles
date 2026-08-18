@@ -1,0 +1,34 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"logo": {
+    "type": "sixel",
+    "source": "/home/yhvhan/.cache/fastfetch_logo_tinted.png",
+    "width": 35,
+    "height": 15,
+    "printRemaining": false,
+    "padding": {
+        "top": 0,
+        "right": 3
+    }
+},
+    "display": {
+        "separator": ": "
+    },
+    "modules": [
+        { "type": "os", "key": "OS" },
+        { "type": "host", "key": "Host" },
+        { "type": "kernel", "key": "Kernel" },
+        { "type": "uptime", "key": "Uptime" },
+        { "type": "packages", "key": "Packages" },
+        { "type": "shell", "key": "Shell" },
+        { "type": "display", "key": "Display" },
+        { "type": "wm", "key": "WM" },
+        { "type": "terminal", "key": "Terminal" },
+        { "type": "cpu", "key": "CPU" },
+        { "type": "gpu", "key": "GPU" },
+        { "type": "memory", "key": "Memory" },
+        { "type": "disk", "key": "Disk" },
+        { "type": "colors", "paddingLeft": 5 }
+    ]
+}
+

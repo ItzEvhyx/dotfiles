@@ -1,0 +1,8 @@
+{
+    "wallpaper": {
+        "postHook": "/home/yhvhan/.config/caelestia/scripts/tint-logo.sh"
+    },
+    "theme": {
+        "postHook": "/home/yhvhan/.config/caelestia/scripts/tint-logo.sh"
+    }
+}

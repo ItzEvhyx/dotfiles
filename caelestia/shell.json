@@ -1,0 +1,76 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": false
+        }
+    },
+    "background": {
+        "desktopClock": {
+            "enabled": true,
+            "scale": 0.6
+        },
+        "enabled": true,
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "clock": {
+            "background": false,
+            "showDate": false
+        },
+        "persistent": false,
+        "showOnHover": true,
+        "tray": {
+            "background": true,
+            "recolour": true
+        },
+        "workspaces": {
+            "occupiedBg": false
+        }
+    },
+    "general": {
+        "apps": {
+            "terminal": [
+                "kitty"
+            ]
+        }
+    },
+    "launcher": {
+        "showOnHover": false
+    },
+    "paths": {
+        "mediaGif": "/home/yhvhan/Caelestia_assets/cat_poarch.gif",
+        "sessionGif": "/home/yhvhan/Caelestia_assets/sleeping_cat.gif"
+    },
+    "utilities": {
+        "quickToggles": [
+            {
+                "enabled": true,
+                "id": "wifi"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "mic"
+            },
+            {
+                "enabled": true,
+                "id": "settings"
+            },
+            {
+                "enabled": true,
+                "id": "gameMode"
+            },
+            {
+                "enabled": true,
+                "id": "dnd"
+            },
+            {
+                "enabled": false,
+                "id": "vpn"
+            }
+        ]
+    }
+}
